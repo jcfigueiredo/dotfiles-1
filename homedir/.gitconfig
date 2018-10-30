@@ -1,9 +1,9 @@
 [user]
-  name = GITHUBFULLNAME
-  email = GITHUBEMAIL
+  name = Claudio Souza
+  email = claudio.souza@alphasights.com
 [github]
   # https://github.com/blog/180-local-github-config
-  user = GITHUBUSER
+  user = jcfigueiredo
 [color]
 # ui = true is a superset of all the more specific color options
 #  as documented at http://book.git-scm.com/5_customizing_git.html
@@ -58,6 +58,7 @@
   upm = !git fetch upstream && git merge upstream/master
   # new standard to replace the deprecated git-up gem package:
   up = pull --rebase --autostash
+  ci = commit
 
   # least used
   br = branch -a

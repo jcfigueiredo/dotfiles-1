@@ -54,3 +54,13 @@ unsetopt correct
 
 # run fortune on new terminal :)
 # fortune
+
+# loads rbenv
+eval "$(rbenv init -)"
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
+eval "$(pyenv init -)"
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+export PATH="/usr/local/opt/llvm@5/bin:$PATH"

@@ -100,3 +100,11 @@ alias td="todo.sh"
 alias tda="todo.sh add"
 alias tdl="todo.sh list"
 alias tdd="todo.sh do"
+
+# Personal
+## News
+alias wapo="curl getnews.tech/the-washington-post?w=120"
+alias hn="curl getnews.tech/hacker-news?w=120"
+
+## tools
+alias cls=colorls
